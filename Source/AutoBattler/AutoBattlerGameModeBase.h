@@ -14,4 +14,10 @@ class AUTOBATTLER_API AAutoBattlerGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+public:
+
+	//~ Begin AGameModeBase Interface
+	void InitGame(const FString& MapName, const FString& Options, FString& ErrorMessage) override;
+	//~ End AGameModeBase Interface
+
 };
