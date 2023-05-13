@@ -6,7 +6,7 @@
 #include "GameFramework/GameModeBase.h"
 #include "AutoBattlerGameModeBase.generated.h"
 
-/**
+/** The game is an autobattler across a grid
  * 
  */
 UCLASS()
